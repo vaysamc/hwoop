@@ -23,6 +23,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void shouldSetMaxChannel() {
         Radio channel = new Radio();
@@ -32,6 +33,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void shouldSetMaxVolume() {
         Radio volume = new Radio();
@@ -53,6 +55,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void downVolume() {
         Radio volume = new Radio();
@@ -64,6 +67,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void upChannel() {
         Radio channel = new Radio();
@@ -75,6 +79,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void downChannel() {
         Radio channel = new Radio();
@@ -86,6 +91,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void fullDownChannel() {
         Radio channel = new Radio();
@@ -97,6 +103,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void fullUpChannel() {
         Radio channel = new Radio();
@@ -108,6 +115,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void fullDownVolume() {
         Radio volume = new Radio();
@@ -119,6 +127,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void fullUpVolume() {
         Radio volume = new Radio();
